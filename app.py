@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # Create Flask application instance
-app = Flask(__name__)
+app = Flask(__name__) 
 
 # HTML template for our homepage
 HTML_TEMPLATE = """
