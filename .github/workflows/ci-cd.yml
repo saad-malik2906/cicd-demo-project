@@ -42,6 +42,7 @@ jobs:
     # Step 5: Run tests
     - name: Run tests with pytest
       run: |
+        export PYTHONPATH=.
         pytest tests/ -v --tb=short
     
     # Step 6: Run linting (code quality check)
