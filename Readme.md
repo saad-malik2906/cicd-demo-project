@@ -123,5 +123,4 @@ This project teaches foundational skills that scale to:
 - Use advanced Docker features like multi-stage builds.
 - Integrate security scans and vulnerability analysis in CI.
 
----
 
