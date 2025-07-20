@@ -23,7 +23,7 @@ def test_health_check(client):
     data = json.loads(response.data)
     assert data['status'] == 'healthy'
     assert 'timestamp' in data
-    assert data['version'] == '1.0.0'
+    assert data['version'] == '1.1.0'
 
 def test_api_status(client):
     """Test API status endpoint"""
